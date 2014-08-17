@@ -1,0 +1,20 @@
+{
+  "name" : "otto-model",
+  "version" : "0.0.0",
+  "repository" : "https://github.com/ottojs/otto-model.git",
+  "main" : "./lib/index.js",
+  "dependencies" : {},
+  "devDependencies" : {
+    "jshint"   : "2.5.3",
+    "mocha"    : "1.21.4",
+    "should"   : "4.0.4",
+    "istanbul" : "0.3.0"
+  },
+  "scripts" : {
+    "test" : "make test"
+  },
+  "engines" : {
+    "node" : "0.10.x",
+    "npm"  : "1.4.x"
+  }
+}
