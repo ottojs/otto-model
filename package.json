@@ -3,7 +3,10 @@
   "version" : "0.0.0",
   "repository" : "https://github.com/ottojs/otto-model.git",
   "main" : "./lib/index.js",
-  "dependencies" : {},
+  "dependencies" : {
+    "async"       : "0.9.0",
+    "otto-errors" : "0.0.2"
+  },
   "devDependencies" : {
     "jshint"   : "2.5.3",
     "mocha"    : "1.21.4",
